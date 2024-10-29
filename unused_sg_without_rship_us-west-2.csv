@@ -1,0 +1,3 @@
+VPC ID,Security Group ID,Security Group Name,Allowing Security Group
+vpc-98e841fd,sg-095d656c,onz-web-tier,sg-095d656c
+vpc-98e841fd,sg-095d656c,onz-web-tier,sg-095d656c

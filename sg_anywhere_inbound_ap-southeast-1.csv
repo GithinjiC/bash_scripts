@@ -1,0 +1,5 @@
+VPC ID,Security Group ID,From Port,To Port,IP Ranges,IP Protocol,Security Group Name
+vpc-daaf6fbf,sg-9711bbf2,80,80,0.0.0.0/0,tcp,default
+vpc-daaf6fbf,sg-9711bbf2,3306,3306,0.0.0.0/0,tcp,default
+vpc-daaf6fbf,sg-9711bbf2,3389,3389,0.0.0.0/0,tcp,default
+vpc-daaf6fbf,sg-9711bbf2,443,443,0.0.0.0/0,tcp,default

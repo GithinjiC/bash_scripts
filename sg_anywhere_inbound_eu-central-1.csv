@@ -1,0 +1,7 @@
+VPC ID,Security Group ID,From Port,To Port,IP Ranges,IP Protocol,Security Group Name
+vpc-ee428187,sg-df1200b6,80,80,0.0.0.0/0,tcp,launch-wizard-1
+vpc-ee428187,sg-17c11e7e,80,80,0.0.0.0/0,tcp,load-balancer
+vpc-ee428187,sg-17c11e7e,443,443,0.0.0.0/0,tcp,load-balancer
+vpc-ee428187,sg-0a7a6663,80,80,0.0.0.0/0,tcp,launch-wizard-2
+vpc-ee428187,sg-0a7a6663,22,22,0.0.0.0/0,tcp,launch-wizard-2
+vpc-ee428187,sg-0a7a6663,443,443,0.0.0.0/0,tcp,launch-wizard-2

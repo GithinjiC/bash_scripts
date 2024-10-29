@@ -1,0 +1,83 @@
+VPC ID,Security Group ID,From Port,To Port,IP Ranges,IP Protocol,Security Group Name
+vpc-087cbe3049dca4b8e,sg-0ccaaffe187bf63fc,-1,-1,0.0.0.0/0,icmp,s1-nessus
+vpc-b46459d0,sg-0ff608b4888921683,3389,3389,0.0.0.0/0,tcp,RDP Only for Isolation
+vpc-b46459d0,sg-0386203a042691edd,80,80,0.0.0.0/0,tcp,sdk-api-ec2-sg
+vpc-a4fca9c0,sg-8d97fbeb,80,80,0.0.0.0/0,tcp,payservice.directpay.online
+vpc-a4fca9c0,sg-8d97fbeb,443,443,0.0.0.0/0,tcp,payservice.directpay.online
+vpc-b46459d0,sg-0132a9e2215bb4d4d,6969,6969,0.0.0.0/0,tcp,security-service-api-sg
+vpc-f6389293,sg-0cde8bbc22a3b5acd,22,22,0.0.0.0/0,tcp,launch-wizard-2
+vpc-b46459d0,sg-0c76b501af5019f6b,80,80,0.0.0.0/0,tcp,private-endpoints
+vpc-b46459d0,sg-0c76b501af5019f6b,443,443,0.0.0.0/0,tcp,private-endpoints
+vpc-b46459d0,sg-067e850b1a27aaebf,80,80,0.0.0.0/0,tcp,dpo-monitoring-sg
+vpc-b46459d0,sg-09f643fbbedc2bae3,80,80,0.0.0.0/0,tcp,3gdirectpay-com-alb-sg
+vpc-b46459d0,sg-09f643fbbedc2bae3,443,443,0.0.0.0/0,tcp,3gdirectpay-com-alb-sg
+vpc-b46459d0,sg-eb419f93,443,443,0.0.0.0/0,tcp,3G-HTTPS-ELB-HTTP
+vpc-1ac5a17d,sg-ab76dad6,80,80,0.0.0.0/0,tcp,WP-HTTP-Access
+vpc-b46459d0,sg-087507973a3e83769,0,65535,0.0.0.0/0,tcp,marketplace-alb-sg
+vpc-b46459d0,sg-08aa1a0932b9ff4af,22,22,0.0.0.0/0,tcp,launch-wizard-4
+vpc-b46459d0,sg-01cb819021ecbc8c4,22,22,0.0.0.0/0,tcp,launch-wizard-3
+vpc-b46459d0,sg-c03ae4b8,80,80,0.0.0.0/0,tcp,3G-IIS-FE-SG
+vpc-b46459d0,sg-07240215188d11fb4,80,80,0.0.0.0/0,tcp,dpo-3g-metric-alb-sg
+vpc-828072e5,sg-a98adcd0,80,80,0.0.0.0/0,tcp,sb-SG-Qlik
+vpc-828072e5,sg-a98adcd0,4248,4248,0.0.0.0/0,tcp,sb-SG-Qlik
+vpc-b46459d0,sg-039c8e46473fda098,80,80,0.0.0.0/0,tcp,dpo-checkout-connector-sg
+vpc-b46459d0,sg-0904a40718877f915,81,81,0.0.0.0/0,tcp,RDP from CT Office
+vpc-b46459d0,sg-0904a40718877f915,80,80,0.0.0.0/0,tcp,RDP from CT Office
+vpc-1ac5a17d,sg-5343052b,4748,4748,0.0.0.0/0,tcp,SG-Qlik-Access
+vpc-1ac5a17d,sg-5343052b,80,80,0.0.0.0/0,tcp,SG-Qlik-Access
+vpc-1ac5a17d,sg-5343052b,4747,4747,0.0.0.0/0,tcp,SG-Qlik-Access
+vpc-1ac5a17d,sg-5343052b,4242,4242,0.0.0.0/0,tcp,SG-Qlik-Access
+vpc-1ac5a17d,sg-5343052b,4248,4248,0.0.0.0/0,tcp,SG-Qlik-Access
+vpc-1ac5a17d,sg-5343052b,4244,4244,0.0.0.0/0,tcp,SG-Qlik-Access
+vpc-1ac5a17d,sg-5343052b,3389,3389,0.0.0.0/0,tcp,SG-Qlik-Access
+vpc-1ac5a17d,sg-5343052b,443,443,0.0.0.0/0,tcp,SG-Qlik-Access
+vpc-1ac5a17d,sg-5343052b,4243,4243,0.0.0.0/0,tcp,SG-Qlik-Access
+vpc-b46459d0,sg-0d7f6087180a5a87c,80,80,0.0.0.0/0,tcp,batchservice-alb-sg
+vpc-b46459d0,sg-0d9faca64b320ea78,80,80,0.0.0.0/0,tcp,dpo-pci-router-nlb-sg
+vpc-b46459d0,sg-0d9faca64b320ea78,4433,4433,0.0.0.0/0,tcp,dpo-pci-router-nlb-sg
+vpc-b46459d0,sg-0d9faca64b320ea78,22,22,0.0.0.0/0,tcp,dpo-pci-router-nlb-sg
+vpc-b46459d0,sg-0d9faca64b320ea78,443,443,0.0.0.0/0,tcp,dpo-pci-router-nlb-sg
+vpc-b46459d0,sg-f6c6ce90,443,443,0.0.0.0/0,tcp,https from internet
+vpc-b46459d0,sg-008dca00b5501f148,null,null,0.0.0.0/0,-1,all-to-all-testing
+vpc-1ac5a17d,sg-083d1e79fe6252e29,443,443,0.0.0.0/0,tcp,pci-qlik-iis-fe-alb-sg
+vpc-b46459d0,sg-2976a851,1433,1433,0.0.0.0/0,tcp,3G-SQL-FE
+vpc-b46459d0,sg-0ce52bfbdf81dfe74,80,80,0.0.0.0/0,tcp,test-nlb-vpn
+vpc-828072e5,sg-e5a01598,80,80,0.0.0.0/0,tcp,ASP-Access
+vpc-b46459d0,sg-036f4744f1c475ef0,80,80,0.0.0.0/0,tcp,CloudFront Allow
+vpc-b46459d0,sg-036f4744f1c475ef0,443,443,0.0.0.0/0,tcp,CloudFront Allow
+vpc-828072e5,sg-757e8a08,443,443,0.0.0.0/0,tcp,LB-WEB-ASP-TEST
+vpc-1ac5a17d,sg-332c7149,3389,3389,0.0.0.0/0,tcp,access-HostMonitor-sg
+vpc-b46459d0,sg-00bd9b48d2466e557,80,80,0.0.0.0/0,tcp,dpo-pci-router-alb-sg
+vpc-b46459d0,sg-00bd9b48d2466e557,443,443,0.0.0.0/0,tcp,dpo-pci-router-alb-sg
+vpc-b46459d0,sg-0e666173bf7205131,80,80,0.0.0.0/0,tcp,sdk-api-alb-sg
+vpc-b46459d0,sg-0e666173bf7205131,443,443,0.0.0.0/0,tcp,sdk-api-alb-sg
+vpc-b46459d0,sg-0acae6ea5dd5579c0,80,80,0.0.0.0/0,tcp,dpo-dtm-sg
+vpc-b46459d0,sg-04591c4b7b17665db,81,81,0.0.0.0/0,tcp,mpesa-processing-ec2-sg
+vpc-b46459d0,sg-20a84e59,-1,-1,0.0.0.0/0,icmp,DRB-TEMP
+vpc-b46459d0,sg-0dd7e3ea72bd16edc,443,443,0.0.0.0/0,tcp,mgmt-qa-nlb-asv-nessus
+vpc-b46459d0,sg-646f221d,80,80,0.0.0.0/0,tcp,Processing Incoming
+vpc-b46459d0,sg-646f221d,443,443,0.0.0.0/0,tcp,Processing Incoming
+vpc-b46459d0,sg-01d9f242d8411d782,80,80,0.0.0.0/0,tcp,dpo-checkout-alb-sg
+vpc-b46459d0,sg-019fa3a49f35bb4b8,0,65535,0.0.0.0/0,tcp,ssm-connections-sg
+vpc-b46459d0,sg-0d2cdc1bdbd18c672,80,80,0.0.0.0/0,tcp,TESTING-80-DELETE
+vpc-087cbe3049dca4b8e,sg-0e3297cf892f7eee7,445,445,0.0.0.0/0,udp,d-93672d985d_controllers
+vpc-087cbe3049dca4b8e,sg-0e3297cf892f7eee7,138,138,0.0.0.0/0,udp,d-93672d985d_controllers
+vpc-087cbe3049dca4b8e,sg-0e3297cf892f7eee7,464,464,0.0.0.0/0,udp,d-93672d985d_controllers
+vpc-087cbe3049dca4b8e,sg-0e3297cf892f7eee7,464,464,0.0.0.0/0,tcp,d-93672d985d_controllers
+vpc-087cbe3049dca4b8e,sg-0e3297cf892f7eee7,389,389,0.0.0.0/0,udp,d-93672d985d_controllers
+vpc-087cbe3049dca4b8e,sg-0e3297cf892f7eee7,53,53,0.0.0.0/0,udp,d-93672d985d_controllers
+vpc-087cbe3049dca4b8e,sg-0e3297cf892f7eee7,389,389,0.0.0.0/0,tcp,d-93672d985d_controllers
+vpc-087cbe3049dca4b8e,sg-0e3297cf892f7eee7,123,123,0.0.0.0/0,udp,d-93672d985d_controllers
+vpc-087cbe3049dca4b8e,sg-0e3297cf892f7eee7,445,445,0.0.0.0/0,tcp,d-93672d985d_controllers
+vpc-087cbe3049dca4b8e,sg-0e3297cf892f7eee7,-1,-1,0.0.0.0/0,icmp,d-93672d985d_controllers
+vpc-087cbe3049dca4b8e,sg-0e3297cf892f7eee7,3268,3269,0.0.0.0/0,tcp,d-93672d985d_controllers
+vpc-087cbe3049dca4b8e,sg-0e3297cf892f7eee7,1024,65535,0.0.0.0/0,tcp,d-93672d985d_controllers
+vpc-087cbe3049dca4b8e,sg-0e3297cf892f7eee7,88,88,0.0.0.0/0,tcp,d-93672d985d_controllers
+vpc-087cbe3049dca4b8e,sg-0e3297cf892f7eee7,135,135,0.0.0.0/0,tcp,d-93672d985d_controllers
+vpc-087cbe3049dca4b8e,sg-0e3297cf892f7eee7,636,636,0.0.0.0/0,tcp,d-93672d985d_controllers
+vpc-087cbe3049dca4b8e,sg-0e3297cf892f7eee7,53,53,0.0.0.0/0,tcp,d-93672d985d_controllers
+vpc-087cbe3049dca4b8e,sg-0e3297cf892f7eee7,88,88,0.0.0.0/0,udp,d-93672d985d_controllers
+vpc-b46459d0,sg-7aa50802,80,80,0.0.0.0/0,tcp,Qlik Sense
+vpc-b46459d0,sg-7aa50802,4248,4248,0.0.0.0/0,tcp,Qlik Sense
+vpc-b46459d0,sg-7aa50802,4244,4244,0.0.0.0/0,tcp,Qlik Sense
+vpc-b46459d0,sg-7aa50802,443,443,0.0.0.0/0,tcp,Qlik Sense
