@@ -1,1 +1,4 @@
 python_env/
+*.csv
+status-check.txt
+*.log
