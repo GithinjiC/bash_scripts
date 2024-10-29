@@ -1,5 +1,0 @@
-VPC ID,Security Group ID,Security Group Name,Allowing Security Group
-vpc-ee428187,sg-f3c11e9a,web-tier,sg-17c11e7e
-sg-f3c11e9a
-vpc-ee428187,sg-f3c11e9a,web-tier,sg-17c11e7e
-sg-f3c11e9a

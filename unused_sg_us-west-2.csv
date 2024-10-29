@@ -1,4 +1,0 @@
-VPC ID,Security Group ID,Security Group Name
-vpc-98e841fd,sg-095d656c,onz-web-tier
-vpc-98e841fd,sg-7d5d6518,onz-load-balancer
-vpc-98e841fd,sg-f5142990,win-load-balancer

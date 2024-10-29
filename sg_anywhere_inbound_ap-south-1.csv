@@ -1,3 +1,0 @@
-VPC ID,Security Group ID,From Port,To Port,IP Ranges,IP Protocol,Security Group Name
-vpc-b3e960da,sg-0187dcbe80d35b2b3,80,80,0.0.0.0/0,tcp,sdk-reverse-proxy-alb-sg
-vpc-b3e960da,sg-0187dcbe80d35b2b3,443,443,0.0.0.0/0,tcp,sdk-reverse-proxy-alb-sg

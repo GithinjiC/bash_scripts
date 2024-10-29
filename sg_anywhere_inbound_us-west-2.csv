@@ -1,8 +1,0 @@
-VPC ID,Security Group ID,From Port,To Port,IP Ranges,IP Protocol,Security Group Name
-vpc-98e841fd,sg-941f44f1,80,80,0.0.0.0/0,tcp,launch-wizard-1
-vpc-98e841fd,sg-941f44f1,22,22,0.0.0.0/0,tcp,launch-wizard-1
-vpc-98e841fd,sg-941f44f1,443,443,0.0.0.0/0,tcp,launch-wizard-1
-vpc-98e841fd,sg-831429e6,3389,3389,0.0.0.0/0,tcp,win-web-tier
-vpc-98e841fd,sg-f5142990,80,80,0.0.0.0/0,tcp,win-load-balancer
-vpc-98e841fd,sg-095d656c,80,80,0.0.0.0/0,tcp,onz-web-tier
-vpc-98e841fd,sg-7d5d6518,80,80,0.0.0.0/0,tcp,onz-load-balancer
