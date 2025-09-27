@@ -2,3 +2,5 @@ python_env/
 *.csv
 status-check.txt
 *.log
+*.pem
+-progress-meter

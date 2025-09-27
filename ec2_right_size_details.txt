@@ -1,0 +1,85 @@
+Checking instance ID: i-029cf17c2e06df275
+Checking ALB/NLB Target Groups...
+✅ Instance i-029cf17c2e06df275 found in Target Group: arn:aws:elasticloadbalancing:eu-west-1:241355714281:targetgroup/prod-secure-tg/68941eb5761775fc
+✅ Instance i-029cf17c2e06df275 found in Target Group: arn:aws:elasticloadbalancing:eu-west-1:241355714281:targetgroup/prod-shop-tg/6a374e87e98fd6c6
+➔ Checking Classic Load Balancers (CLB)...
+✅ Instance i-029cf17c2e06df275 found in Classic Load Balancer: prod-pgw-clb
+================================================================================
+================================================================================
+================================================================================
+
+Checking instance ID: i-07cbc6e6c91533f92
+Checking ALB/NLB Target Groups...
+❌ Instance i-07cbc6e6c91533f92 was NOT found in any ALB/NLB Target Groups.
+➔ Checking Classic Load Balancers (CLB)...
+❌ Instance i-07cbc6e6c91533f92 was NOT found in any Classic Load Balancers.
+================================================================================
+================================================================================
+================================================================================
+
+Checking instance ID: i-041fc81335efc716d
+Checking ALB/NLB Target Groups...
+✅ Instance i-041fc81335efc716d found in Target Group: arn:aws:elasticloadbalancing:eu-west-1:241355714281:targetgroup/dpo-iis-web-tg/b6d14ee84ee86ca0
+✅ Instance i-041fc81335efc716d found in Target Group: arn:aws:elasticloadbalancing:eu-west-1:241355714281:targetgroup/dpo-iis-web-tg-74/6ce545da89434f23
+➔ Checking Classic Load Balancers (CLB)...
+❌ Instance i-041fc81335efc716d was NOT found in any Classic Load Balancers.
+================================================================================
+================================================================================
+================================================================================
+
+Checking instance ID: i-04d9ba4c983db901f
+Checking ALB/NLB Target Groups...
+✅ Instance i-04d9ba4c983db901f found in Target Group: arn:aws:elasticloadbalancing:eu-west-1:241355714281:targetgroup/dpo-iis-web-tg/b6d14ee84ee86ca0
+✅ Instance i-04d9ba4c983db901f found in Target Group: arn:aws:elasticloadbalancing:eu-west-1:241355714281:targetgroup/dpo-iis-web-tg-74/6ce545da89434f23
+➔ Checking Classic Load Balancers (CLB)...
+❌ Instance i-04d9ba4c983db901f was NOT found in any Classic Load Balancers.
+================================================================================
+================================================================================
+================================================================================
+
+Checking instance ID: i-0b91cf05812ef6383
+Checking ALB/NLB Target Groups...
+✅ Instance i-0b91cf05812ef6383 found in Target Group: arn:aws:elasticloadbalancing:eu-west-1:241355714281:targetgroup/dpo-iis-web-tg/b6d14ee84ee86ca0
+✅ Instance i-0b91cf05812ef6383 found in Target Group: arn:aws:elasticloadbalancing:eu-west-1:241355714281:targetgroup/dpo-iis-web-tg-74/6ce545da89434f23
+➔ Checking Classic Load Balancers (CLB)...
+❌ Instance i-0b91cf05812ef6383 was NOT found in any Classic Load Balancers.
+================================================================================
+================================================================================
+================================================================================
+
+Checking instance ID: i-010cf5b9324838704
+Checking ALB/NLB Target Groups...
+✅ Instance i-010cf5b9324838704 found in Target Group: arn:aws:elasticloadbalancing:eu-west-1:241355714281:targetgroup/dpo-web-ui-tg/a2b191ebe4660aa9
+➔ Checking Classic Load Balancers (CLB)...
+❌ Instance i-010cf5b9324838704 was NOT found in any Classic Load Balancers.
+================================================================================
+================================================================================
+================================================================================
+
+Checking instance ID: i-0fdb8ee08591e38f0
+Checking ALB/NLB Target Groups...
+❌ Instance i-0fdb8ee08591e38f0 was NOT found in any ALB/NLB Target Groups.
+➔ Checking Classic Load Balancers (CLB)...
+❌ Instance i-0fdb8ee08591e38f0 was NOT found in any Classic Load Balancers.
+================================================================================
+================================================================================
+================================================================================
+
+Checking instance ID: i-0ac88012511c5131f
+Checking ALB/NLB Target Groups...
+✅ Instance i-0ac88012511c5131f found in Target Group: arn:aws:elasticloadbalancing:eu-west-1:241355714281:targetgroup/dpo-web-ui-tg/a2b191ebe4660aa9
+➔ Checking Classic Load Balancers (CLB)...
+❌ Instance i-0ac88012511c5131f was NOT found in any Classic Load Balancers.
+================================================================================
+================================================================================
+================================================================================
+
+Checking instance ID: i-0182511c258e217f2
+Checking ALB/NLB Target Groups...
+✅ Instance i-0182511c258e217f2 found in Target Group: arn:aws:elasticloadbalancing:eu-west-1:241355714281:targetgroup/dpo-web-ui-tg/a2b191ebe4660aa9
+➔ Checking Classic Load Balancers (CLB)...
+❌ Instance i-0182511c258e217f2 was NOT found in any Classic Load Balancers.
+================================================================================
+================================================================================
+================================================================================
+
