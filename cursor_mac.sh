@@ -25,7 +25,7 @@ quitCursor() {
         fi
     fi
 }
-
+    
 # Function to install or update Cursor AI IDE
 installCursor() {
     # Fetch the latest version from GitHub repository

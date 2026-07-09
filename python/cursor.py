@@ -2,6 +2,8 @@
 python3 -m venv <env_name>
 source <env_name>/bin/activate
 pip install pyautogui
+pip install -r requirements.in
+pip freeze > requirements.txt
 nohup python cursor.py &> output.log &
 jobs -l -> get the background jobs pid
 kill <PID>
